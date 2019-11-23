@@ -18,6 +18,7 @@ For a working implementation see the [Raytracer backend](https://github.com/Marc
 # Known issues
 
 * Some integrated GPUs (such as Intel Graphics 620) silently fail to run the shader and do not output anything on screen
+* Instead of not showing anything the mobile chipsets might also throw an AccessViolationException on the linkProgram call (in-memory compile step of glsl shader code)
 
 # Usage
 

@@ -129,12 +129,12 @@ namespace MonoGame.Framework.ComputeShader
             // MonoGame has internal caches that we can't update
             // thus we must update the program or else MonoGame crashes
             // (it expects its program to still be active)
-            var program = GetAtiveMonoGameProgram();
+            var program = GetActiveMonoGameProgram();
             GL.UseProgram(program);
             CheckGLError();
         }
 
-        private uint GetAtiveMonoGameProgram()
+        private uint GetActiveMonoGameProgram()
         {
             var value = _shaderProgramInfo.GetValue(_graphicsDevice);
             if (value != null)

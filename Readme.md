@@ -72,7 +72,7 @@ void main()
   vec2 uv = pos/size;
   // Time varying pixel color
   vec3 col = 0.5 + 0.5 * cos(time + uv.xyx + vec3(0,2,4));
-  imageStore(framebuffer, pos, col);
+  imageStore(framebuffer, pos, vec4(col, 1));
 }
 
 ```

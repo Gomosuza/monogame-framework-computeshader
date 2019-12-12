@@ -12,7 +12,7 @@ Beyond those warnings feel free to use the extension.
 
 # Working demo
 
-For a working implementation see the [Raytracer backend](https://github.com/MarcStan/raytracer/blob/master/Raytracer/Backends/ComputeShaderRaytracer.cs) and respective [shader code](https://github.com/MarcStan/raytracer/blob/master/Raytracer/Shaders/raytracer.glslcs).
+For a working implementation see the [Raytracer backend](https://github.com/MarcStan/raytracer/blob/master/Raytracer/Backends/ComputeShaderRaytracer.cs) and respective [shader code](https://github.com/MarcStan/raytracer/blob/master/Raytracer/Shaders/raytracer.glsl).
 
 
 # Known issues
